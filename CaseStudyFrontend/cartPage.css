@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.add-button,.subtract-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subtract-button {
+    background-color: #dc3545;
+}
+.add-to-cart-button{
+    background-color: blue;
+}
+
+/* CSS (cartPage.css) */
+
+/* Style for plus and minus icons */
+.icon {
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px; /* Add spacing between icons */
+    color: #007bff; /* Blue color for icons */
+  }
+  
+  .icon:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+
+  thead {
+    background-color: #f0f0f0; /* Light gray background for table header */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Gray border at the bottom of rows */
+  }
+  
+  /* Style for the quantity column */
+  .quantity {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .add-button, .delete-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: red;
+}
+  /* Style for the total column (Price with Quantity) */
+  td:nth-child(4) {
+    font-weight: bold;
+    color: #27ae60; /* Green color for total price */
+  }
+  
+  /* Style for the action column (leave it empty) */
+  td:nth-child(5) {
+    width: 50px; /* Adjust the width as needed */
+  }
+  
+  /* Add some margin to the table for spacing */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
